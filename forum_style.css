@@ -1,0 +1,119 @@
+@import url("news_window.css");
+
+body {
+  /*  background-color: indianred;  */
+    background-image: url(http://moziru.com/images/moving-clipart-snow-5.gif);
+    background-repeat: repeat; 
+    text-align: center;         /* make sure IE centers the page too */
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+ 
+#content {
+    background-color: darkseagreen; 
+    border: 1px solid #000;
+    float: left;
+    font-family: Arial;
+    padding: 20px 30px;
+    text-align: left;
+    width: 100%;                /* fill up the entire div */
+}
+#rssOutput {
+    background-color: aliceblue; 
+     border: 1px solid #000;
+    float: left;
+    font-family: Arial;
+    padding: 20px 30px;
+    text-align: left;
+    width: 100%;  
+}
+#feedControl {
+margin-top : 10px;
+margin-left: auto;
+margin-right: auto;
+width : 440px;
+}
+
+#userbar {
+    color: chartreuse; 
+}
+
+a {
+    color: aqua;
+}
+
+/* begin table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+table a {
+    color: #000;
+}
+ 
+table a:hover {
+    color:#373737;
+    text-decoration: none;
+}
+ 
+th {
+    background-color: crimson;
+    color: #F0F0F0;
+}
+ 
+td {
+    padding: 5px;
+}
+
+h1 {
+    color: chartreuse; 
+    margin: 0; 
+    padding: 0; 
+}
+h2 {
+	color: black
+	font-size: 6pt; 
+}
+h3 {
+    color: black
+    margin: 0; 
+    padding: 0; 
+}
+
+.cats { /* categories */ 
+    width: 70%; 
+}
+
+.tops { /* topics */ 
+    width: 30%; 
+}
+
+
+#footer {
+    clear: both;
+}
+
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px;
+}
+ 
+textarea {
+    width: 500px;
+    height: 200px;
+}
+input[type=text]:focus {
+    border: 3px solid crimson; 
+}
+textarea:focus {
+    border: 3px solid crimson; 
+}
